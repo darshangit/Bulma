@@ -1,9 +1,15 @@
 @import "node_modules/bulma/sass/utilities/initial-variables"
 
 //Customisation
+$grey-darker: hsl(204,100%,41%)
+$primary: hsl(328, 100%, 44%)
 
 @import "node_modules/bulma/bulma"
 
-.light
-    background: lightgray
+.footer
+    background: $primary
+    color: $white
 
+    a
+        color: $warning
+        font-weight: bold
